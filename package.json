@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build && webpack --watch\" \"cd server && npm run server\" ",
-    "start": "npm run build && cd server && node server.js",
+    "start": "cd server && node server.js",
     "server": "cd server node server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
@@ -22,18 +22,7 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4",
-    "webpack-cli": "^5.0.1","@babel/core": "^7.15.0",
-    "@babel/plugin-transform-runtime": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
-    "@babel/runtime": "^7.15.3",
-    "babel-loader": "^8.2.2",
-    "css-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.2",
-    "http-server": "^0.11.1",
-    "style-loader": "^3.2.1",
-    "webpack": "^5.51.1",
-    "webpack-dev-server": "^4.0.0",
-    "webpack-pwa-manifest": "^4.3.0",
-    "workbox-webpack-plugin": "^6.2.4"
+    "webpack-cli": "^5.0.1",
+    "html-webpack-plugin": "^5.3.2"
   }
 }
