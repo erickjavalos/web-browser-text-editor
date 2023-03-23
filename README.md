@@ -17,7 +17,6 @@ app to heroku.
 
 ## Screenshot
 
-<img width="1435" alt="Screenshot 2023-03-23 at 1 16 01 PM" src="https://user-images.githubusercontent.com/23002875/227342246-f15af74f-0f66-4ac8-91b0-47e4cbee28c3.png">
 
 ## Deployed
 
