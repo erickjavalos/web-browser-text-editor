@@ -18,6 +18,8 @@ app to heroku.
 ## Screenshot
 
 
-## Video Demo
+## Deployed
+
+https://web-browser-text-editor-server.herokuapp.com/
 
 
